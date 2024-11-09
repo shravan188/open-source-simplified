@@ -23,7 +23,7 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 
 3. Make notes as you learn. These will come in very handy afterwards
    
-4. Have a goal - something which will push you when the going is not smooth. It could be getting an internship/job, being an open source contributor, just wanting to master something new etc. One major perk of completing this roadmap is you get to be part of an awesome AI community that is building cutting edge solutions for various India specific problems. So you can make a huge impact on the society as well, if you complete this, apart from all the other benefits.
+4. Have a goal - something which will push you when the going is not smooth. It could be getting an internship/job, being an open source contributor, just wanting to master something new etc. **One major perk of completing this roadmap is you get to be part of an awesome AI community that is building cutting edge solutions for various India specific problems. So you can make a huge impact on the society as well, if you complete this, apart from all the other benefits.**
 
 5. If you have a doubt, google it. That should solve it 99% of the times. If that still does not help, ask your doubt in the discussions section, and someone might answer it   
   
@@ -72,7 +72,7 @@ Deactivate and delete the virtual environment. Create a new virtual environment 
 2. A screenshot of the terminal which lists all the installed packages
 <br/>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 
 ## Web Concepts: Client, Server and API
@@ -125,7 +125,7 @@ Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 <br/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 
 ## Databases and ORM (SQLite and SQLAlchemy)
@@ -158,7 +158,7 @@ Build a FastAPI app which connects to a SQLite database named db, with the follo
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 <br/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 ## Asynchronous Python (including Asynchronous SQLAlchemy)
 Note: This is a hard topic, so if you are not able to grasp this fully, just go ahead, and you can come back to it at a later point of time
@@ -176,7 +176,7 @@ Reference code: https://github.com/PrettyPrinted/youtube_video_code/blob/master/
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 
 <br/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 ## Websockets
 ### Concepts
@@ -198,7 +198,7 @@ Build a simple messaging app between multiple clients using FastAPI and websocke
 1. Entire code
 
 <br/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 ## Redis
 ### Concepts
@@ -224,7 +224,7 @@ Create a FastAPI app which gets data from any of the public APIs in the link - h
 1. Entire code
 
 <br/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 ## LLM and Prompt engineering
 ### Concepts
@@ -251,7 +251,7 @@ Note: Why did I not name the class Groq, and if I want to do that, what can I do
 1. Entire code
 
 <br/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravan188/open-source-simplified/blob/main/Roadmap1/submit_button.png" width="120" /></a>
 
 ## Web Authentication
 1. Authentication vs Authorization
