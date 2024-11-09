@@ -21,16 +21,17 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 
 2. Always read the official docs first. Go for video tutorial only if you do not understand docs. Many libraries have really good official docs. For example, FastAPI docs are really good. This is important because in the real world, you will have to use niche tools and libraries which will not have any video tutorials and will only have docs
 
-3. Make notes as you learn
+3. Make notes as you learn. These will come in very handy afterwards
    
+4. Have a goal - something which will push you when the going is not smooth. It could be getting an internship/job, being an open source contributor, just wanting to master something new etc. One major perk of completing this roadmap is you get to be part of an awesome AI community that is building cutting edge solutions for various India specific problems. So you can make a huge impact on the society as well, if you complete this, apart from all the other benefits.
+
+5. If you have a doubt, google it. That should solve it 99% of the times. If that still does not help, ask your doubt in the discussions section, and someone might answer it   
   
 
-<Add submit your exercise button>
-<Github discussions>
 
 
-# Topics
-## Python basics
+# Roadmap Topics
+## Python Fundamentals
 ### Concepts
 1. Variables
 2. Data Types (including int, str, list, dictionary, tuple, set)
@@ -65,9 +66,14 @@ Create a new project folder called virtual-environment-demo using poetry new. In
 Deactivate and delete the virtual environment. Create a new virtual environment and activate it. Install packages using the pyproject.toml file. Using poetry, list all installed packages within the virtual environment
 
 <br/>
-**Submission Guidelines** : Submission should be a Github link having the following
+
+**Submission Guidelines**: Submission should be a Github link having the following
 1. A text file listing all the commands used to solve the exercise
 2. A screenshot of the terminal which lists all the installed packages
+<br/>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 
 ## Web Concepts: Client, Server and API
 This section is only to understand the thoery. Seeing learning material 1 should be sufficient for this section
@@ -118,6 +124,9 @@ Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
+<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 
 ## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
@@ -138,12 +147,18 @@ Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2
    
 ### Exercise
 **Level 1** <br/>
-Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session <br/>
-Reference code : Code in the first 3 minutes of https://www.youtube.com/watch?v=cH0immwfykI <br/>
+Build a FastAPI app which connects to a SQLite database named db, with the following requirement 
+1. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value.
+2. Create an endpoint `/v1/transcriptions`, which returns all the transcriptions.
+3. Create another endpoint `/v1/transcriptions/save`, where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session <br/>
+
+**Reference code** : Code in the first 3 minutes of https://www.youtube.com/watch?v=cH0immwfykI <br/>
 
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
+<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
 ## Asynchronous Python (including Asynchronous SQLAlchemy)
 Note: This is a hard topic, so if you are not able to grasp this fully, just go ahead, and you can come back to it at a later point of time
@@ -160,6 +175,9 @@ Reference code: https://github.com/PrettyPrinted/youtube_video_code/blob/master/
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 
+<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 ## Websockets
 ### Concepts
 1. Websockets vs HTTP (including lifecycle of websocket, websocket url, pros and cons of web socket)
@@ -171,11 +189,16 @@ Reference code: https://github.com/PrettyPrinted/youtube_video_code/blob/master/
 2. https://fastapi.tiangolo.com/advanced/websockets/
 
 ### Exercise
-#### Level 1
+**Level 1** </br>
 Complete the activity shown in https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
-#### Level 2
+**Level 2** </br>
 Build a simple messaging app between multiple clients using FastAPI and websockets. You can refer to the code in FastAPI docs, but do make sure to add one additional feature of your own
 
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+
+<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
 ## Redis
 ### Concepts
@@ -196,6 +219,12 @@ Build a simple messaging app between multiple clients using FastAPI and websocke
 In the terminal/command prompt, create 2 entries with hash datatype. Then retrieve all of them
 #### Level 2
 Create a FastAPI app which gets data from any of the public APIs in the link - https://github.com/public-apis/public-apis and then caches it using redis, so that when the end users call the same url, they get the same data instantaneously
+
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+
+<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
 ## LLM and Prompt engineering
 ### Concepts
@@ -218,6 +247,12 @@ Convert the above code into a class called MyGroq. The class should have 2 metho
 2. Method called inference, which takes the model_id and prompt as input and returns the response of the LLM API call as the output
 Note: Why did I not name the class Groq, and if I want to do that, what can I do?
 
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+
+<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdTaO8BpC8hZ7hYHrPTo7S1o-lgyzaMNy3UIh8IWpG78zfRmQ/viewform"><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 ## Web Authentication
 1. Authentication vs Authorization
 2. Session vs Token based authentication
@@ -239,7 +274,7 @@ COMING SOON
 # Capstone Project 
 This capstone project is based on a real world open source project, which you can contribute to once you finish the capstone project
 #### Level 1
-Given the client code, create a FastAPI app with the following
+Given the client code [index.html](https://pages.github.com/), create a FastAPI app with the following
 1. An endpoint /v1/languages which when called return {"languages":["en","hi"]}
 2. A websocket endpoint /v1/ws/transcription which receives text from the client, and extracts the user_id and language from the received text. It returns the following response back to the client via the websocket
    {
